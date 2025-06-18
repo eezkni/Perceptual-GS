@@ -42,6 +42,37 @@ Then, all scenes can be trained, rendered and evaluated through the following co
 python run.py
 ```
 
+## Experimental Results
+1. Quantitative results on reconstruction quality, comparing our method with state-of-the-art methods in terms of PSNR↑, SSIM↑ and LPIPS↓. The <span style="background-color: #FFB2B2">best</span>, <span style="background-color: #FFD9B2">second-best</span>,and <span style="background-color: #FFF9C2">third-best</span> results are high lighted.
+
+<div align="center"> 
+<img src="./assets/quality.png" width = "90%" height = "100%" /> 
+</div>
+
+2. Quantitative results on reconstruction efficiency, comparing our method with state-of-the-art methods in terms of the number of Gaussian primitives (#G)↓ and rendering speed (FPS)↑.
+
+<div align="center"> 
+<img src="./assets/efficiency.png" width = "60%" height = "100%" /> 
+</div>
+
+3. The quantitative result of the proposed method is based on different models on Mip-NeRF 360, Tanks & Temples, and Deep Blending. Metrics are averaged across the scenes. The <span style="color: red">improvements</span> and <span style="color: blue">reductions</span> in the metrics are highlighted.
+
+<div align="center"> 
+<img src="./assets/combination1.png" width = "90%" height = "100%" /> 
+</div>
+
+4. The quantitative result of the proposed method is based on different models on BungeeNeRF. We present metrics averaged on the dataset and from three single scenes.
+
+<div align="center"> 
+<img src="./assets/combination2.png" width = "90%" height = "100%" /> 
+</div>
+
+5. The quantitative result of the proposed method is based on CoR-GS on 24-view Mip-NeRF 360. Metrics are averaged across the scenes.
+
+<div align="center"> 
+<img src="./assets/combination3.png" width = "30%" height = "100%" /> 
+</div>
+
 ## Acknowledgments
 This project is built upon [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). Please follow the license of 3DGS. We thank all the authors for their great work and repos.
 
