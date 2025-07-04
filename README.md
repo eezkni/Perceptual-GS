@@ -2,7 +2,7 @@
 
 #### Forty-second International Conference on Machine Learning, 2025
 
-Hongbi Zhou<sup>1</sup>, [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>
+Hongbi Zhou<sup>1</sup> and [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>
 
 <sup>1</sup>Tongji University
 
