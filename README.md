@@ -18,27 +18,27 @@ This repository provides the official PyTorch implementation for the paper "Perc
 
 <div align="center"> 
 <!-- <img src="./assets/quality.png" width = "90%" height = "100%" />  -->
-<img src="./assets/quality.png" width = "700" /> 
+<img src="./assets/quality.png" width = "800" /> 
 </div>
 
 1. Quantitative results on reconstruction efficiency, comparing our method with state-of-the-art methods in terms of the number of Gaussian primitives (#G)↓ and rendering speed (FPS)↑.
 
 <div align="center">
-<img src="./assets/efficiency.png" width = "500" height = "100%" />  
+<img src="./assets/efficiency.png" width = "600"/>  
 <!-- <img src="./assets/efficiency.png" width = "60%" height = "100%" />  -->
 </div>
 
-3. The quantitative result of the proposed method is based on different models on Mip-NeRF 360, Tanks & Temples, and Deep Blending. Metrics are averaged across the scenes. The <span style="color: red">improvements</span> and <span style="color: blue">reductions</span> in the metrics are highlighted.
+1. The quantitative result of the proposed method is based on different models on Mip-NeRF 360, Tanks & Temples, and Deep Blending. Metrics are averaged across the scenes. The <span style="color: red">improvements</span> and <span style="color: blue">reductions</span> in the metrics are highlighted.
 
 <div align="center"> 
-<img src="./assets/combination1.png" width = "700" /> 
+<img src="./assets/combination1.png" width = "800" /> 
 <!-- <img src="./assets/combination1.png" width = "90%" height = "100%" />  -->
 </div>
 
 4. The quantitative result of the proposed method is based on different models on BungeeNeRF. We present metrics averaged on the dataset and from three single scenes.
 
 <div align="center"> 
-<img src="./assets/combination2.png" width = "700" /> 
+<img src="./assets/combination2.png" width = "800" /> 
 <!-- <img src="./assets/combination2.png" width = "90%" height = "100%" />  -->
 </div>
 
