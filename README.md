@@ -24,7 +24,7 @@ This repository provides the official PyTorch implementation for the paper "Perc
 1. Quantitative results on reconstruction efficiency, comparing our method with state-of-the-art methods in terms of the number of Gaussian primitives (#G)↓ and rendering speed (FPS)↑.
 
 <div align="center">
-<img src="./assets/efficiency.png" width = "600"/>  
+<img src="./assets/efficiency.png" width = "550"/>  
 <!-- <img src="./assets/efficiency.png" width = "60%" height = "100%" />  -->
 </div>
 
