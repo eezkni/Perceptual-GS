@@ -1,12 +1,27 @@
-# Perceptual-GS: Scene-adaptive Perceptual Densification for Gaussian Splatting
+<div align="center">
+  <h1>Perceptual-GS: Scene-adaptive Perceptual Densification for Gaussian Splatting</h1>
+</div>
 
-#### Forty-second International Conference on Machine Learning, 2025
+<h4 align="center"> 
 
 Hongbi Zhou<sup>1</sup> and [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>
 
 <sup>1</sup>Tongji University
 
-This repository provides the official PyTorch implementation for the paper "Perceptual-GS: Scene-adaptive Perceptual Densification for Gaussian Splatting," ICML 2025. [Paper](https://arxiv.org/abs/2506.12400)
+International Conference on Machine Learning (ICML), 2025
+</h4>
+
+
+
+<!-- # Perceptual-GS: Scene-adaptive Perceptual Densification for Gaussian Splatting
+
+#### Forty-second International Conference on Machine Learning, 2025
+
+Hongbi Zhou<sup>1</sup> and [Zhangkai Ni](https://eezkni.github.io/)<sup>1</sup>
+
+<sup>1</sup>Tongji University -->
+
+This repository provides the official PyTorch implementation for the paper "Perceptual-GS: Scene-adaptive Perceptual Densification for Gaussian Splatting," Proceedings of the International Conference on Machine Learning (ICML), no. 3184, pp. 79089-79114, 2025. [Paper-official](https://dl.acm.org/doi/abs/10.5555/3780338.3783522) | [Paper-arXiv](https://arxiv.org/abs/2506.12400)
 
 ![Teaser](./assets/teaser.png)
 
@@ -17,36 +32,36 @@ This repository provides the official PyTorch implementation for the paper "Perc
 1. Quantitative results on reconstruction quality, comparing our method with state-of-the-art methods in terms of PSNR↑, SSIM↑ and LPIPS↓. The <span style="background-color: #FFB2B2">best</span>, <span style="background-color: #FFD9B2">second-best</span>,and <span style="background-color: #FFF9C2">third-best</span> results are high lighted.
 
 <div align="center"> 
-<!-- <img src="./assets/quality.png" width = "90%" height = "100%" />  -->
-<img src="./assets/quality.png" width = "800" /> 
+<img src="./assets/quality.png" width = "90%" height = "100%" /> 
+<!-- <img src="./assets/quality.png" width = "800" />  -->
 </div>
 
 1. Quantitative results on reconstruction efficiency, comparing our method with state-of-the-art methods in terms of the number of Gaussian primitives (#G)↓ and rendering speed (FPS)↑.
 
 <div align="center">
-<img src="./assets/efficiency.png" width = "550"/>  
-<!-- <img src="./assets/efficiency.png" width = "60%" height = "100%" />  -->
+<!-- <img src="./assets/efficiency.png" width = "550"/>   -->
+<img src="./assets/efficiency.png" width = "60%" height = "100%" /> 
 </div>
 
 1. The quantitative result of the proposed method is based on different models on Mip-NeRF 360, Tanks & Temples, and Deep Blending. Metrics are averaged across the scenes. The <span style="color: red">improvements</span> and <span style="color: blue">reductions</span> in the metrics are highlighted.
 
 <div align="center"> 
-<img src="./assets/combination1.png" width = "800" /> 
-<!-- <img src="./assets/combination1.png" width = "90%" height = "100%" />  -->
+<!-- <img src="./assets/combination1.png" width = "800" />  -->
+<img src="./assets/combination1.png" width = "90%" height = "100%" /> 
 </div>
 
 4. The quantitative result of the proposed method is based on different models on BungeeNeRF. We present metrics averaged on the dataset and from three single scenes.
 
 <div align="center"> 
-<img src="./assets/combination2.png" width = "800" /> 
-<!-- <img src="./assets/combination2.png" width = "90%" height = "100%" />  -->
+<!-- <img src="./assets/combination2.png" width = "800" />  -->
+<img src="./assets/combination2.png" width = "90%" height = "100%" /> 
 </div>
 
 5. The quantitative result of the proposed method is based on CoR-GS on 24-view Mip-NeRF 360. Metrics are averaged across the scenes.
 
 <div align="center">
-<img src="./assets/combination3.png" width = "300" />  
-<!-- <img src="./assets/combination3.png" width = "30%" height = "100%" />  -->
+<!-- <img src="./assets/combination3.png" width = "300" />   -->
+<img src="./assets/combination3.png" width = "30%" height = "100%" /> 
 </div>
 
 ## Environment setup
