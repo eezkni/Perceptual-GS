@@ -61,7 +61,7 @@ This repository provides the official PyTorch implementation for the paper "Perc
 
 <div align="center">
 <!-- <img src="./assets/combination3.png" width = "300" />   -->
-<img src="./assets/combination3.png" width = "30%" height = "100%" /> 
+<img src="./assets/combination3.png" width = "40%" height = "100%" /> 
 </div>
 
 ## Environment setup
