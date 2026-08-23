@@ -40,7 +40,7 @@ This repository provides the official PyTorch implementation for the paper "Perc
 
 <div align="center">
 <!-- <img src="./assets/efficiency.png" width = "550"/>   -->
-<img src="./assets/efficiency.png" width = "80%" height = "100%" /> 
+<img src="./assets/efficiency.png" width = "70%" height = "100%" /> 
 </div>
 
 1. The quantitative result of the proposed method is based on different models on Mip-NeRF 360, Tanks & Temples, and Deep Blending. Metrics are averaged across the scenes. The <span style="color: red">improvements</span> and <span style="color: blue">reductions</span> in the metrics are highlighted.
